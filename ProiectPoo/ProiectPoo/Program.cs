@@ -34,6 +34,7 @@ class Program
         student.InroleazaDisciplina(disciplina2);
         
         student1.InroleazaDisciplina(disciplina);
+        student1.InroleazaDisciplina(disciplina1);
         student1.InroleazaDisciplina(disciplina2);
         
         student2.InroleazaDisciplina(disciplina);
@@ -45,8 +46,8 @@ class Program
         
 
         catalog.PublicaNote("Ion Popescu", "Matematica");
+        catalog.PublicaNote("Ionut Mircescu", "Matematici Speciale");
         catalog.PublicaNote("Ionut Mircescu", "POO");
-        catalog.PublicaNote("Maria Albu", "Matematici Speciale");
         
         Console.WriteLine($"Media anuala: {student.CalculeazaMediaAnuala()}");
         Console.WriteLine($"Media anuala: {student1.CalculeazaMediaAnuala()}");
