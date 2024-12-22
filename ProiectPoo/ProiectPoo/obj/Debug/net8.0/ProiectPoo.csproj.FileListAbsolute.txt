@@ -1,0 +1,15 @@
+D:\Facultate\anu 3\POO\poo-2024\ProiectPoo\ProiectPoo\bin\Debug\net8.0\ProiectPoo.exe
+D:\Facultate\anu 3\POO\poo-2024\ProiectPoo\ProiectPoo\bin\Debug\net8.0\ProiectPoo.deps.json
+D:\Facultate\anu 3\POO\poo-2024\ProiectPoo\ProiectPoo\bin\Debug\net8.0\ProiectPoo.runtimeconfig.json
+D:\Facultate\anu 3\POO\poo-2024\ProiectPoo\ProiectPoo\bin\Debug\net8.0\ProiectPoo.dll
+D:\Facultate\anu 3\POO\poo-2024\ProiectPoo\ProiectPoo\bin\Debug\net8.0\ProiectPoo.pdb
+D:\Facultate\anu 3\POO\poo-2024\ProiectPoo\ProiectPoo\obj\Debug\net8.0\ProiectPoo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Facultate\anu 3\POO\poo-2024\ProiectPoo\ProiectPoo\obj\Debug\net8.0\ProiectPoo.AssemblyInfoInputs.cache
+D:\Facultate\anu 3\POO\poo-2024\ProiectPoo\ProiectPoo\obj\Debug\net8.0\ProiectPoo.AssemblyInfo.cs
+D:\Facultate\anu 3\POO\poo-2024\ProiectPoo\ProiectPoo\obj\Debug\net8.0\ProiectPoo.csproj.CoreCompileInputs.cache
+D:\Facultate\anu 3\POO\poo-2024\ProiectPoo\ProiectPoo\obj\Debug\net8.0\ProiectPoo.sourcelink.json
+D:\Facultate\anu 3\POO\poo-2024\ProiectPoo\ProiectPoo\obj\Debug\net8.0\ProiectPoo.dll
+D:\Facultate\anu 3\POO\poo-2024\ProiectPoo\ProiectPoo\obj\Debug\net8.0\refint\ProiectPoo.dll
+D:\Facultate\anu 3\POO\poo-2024\ProiectPoo\ProiectPoo\obj\Debug\net8.0\ProiectPoo.pdb
+D:\Facultate\anu 3\POO\poo-2024\ProiectPoo\ProiectPoo\obj\Debug\net8.0\ProiectPoo.genruntimeconfig.cache
+D:\Facultate\anu 3\POO\poo-2024\ProiectPoo\ProiectPoo\obj\Debug\net8.0\ref\ProiectPoo.dll

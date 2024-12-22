@@ -8,18 +8,23 @@ class Program
         var student = new Student("Ion Popescu", 2);
         var student1 = new Student("Ionut Mircescu", 3);
         var student2 = new Student("Maria Albu", 1);
-        var disciplina = new Disciplina("Matematica", "Obligatorie");
-        var disciplina1 = new Disciplina("POO", "Obligatorie");
-        var disciplina2 = new Disciplina("Matematici Speciale", "Obligatorie");
+        
+        var disciplina = new Disciplina("Matematica", "Obligatorie",2,1);
+        var disciplina1 = new Disciplina("POO", "Obligatorie",3,2);
+        var disciplina2 = new Disciplina("Matematici Speciale", "Obligatorie",1,2);
+        
         disciplina.Note.Add(new Nota("Activitate", 9));
         disciplina.Note.Add(new Nota("Activitate", 6));
         disciplina.Note.Add(new Nota("Activitate", 2));
+        
         disciplina1.Note.Add(new Nota("Activitate", 7));
         disciplina1.Note.Add(new Nota("Activitate", 4));
         disciplina1.Note.Add(new Nota("Activitate", 9));
+        
         disciplina2.Note.Add(new Nota("Activitate", 10));
         disciplina2.Note.Add(new Nota("Activitate", 3));
         disciplina2.Note.Add(new Nota("Activitate", 5));
+        
         disciplina.Note.Add(new Nota("Examen", 8));
         disciplina1.Note.Add(new Nota("Examen", 5));
         disciplina2.Note.Add(new Nota("Examen", 7));
