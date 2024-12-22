@@ -62,5 +62,19 @@ class Program
         Console.WriteLine("\nVizualizare note pentru anul 3, semestrul 2:");
         student.VizualizeazaNoteAnSemestruDisciplina(3, 2, "POO");
         
+        
+        student.TrimiteContestatie("Matematica");
+        student1.TrimiteContestatie("POO");
+        
+        Console.WriteLine("\nContestatii trimise:");
+        student.VizualizeazaContestatii();
+        student1.VizualizeazaContestatii();
+        
+        student.ActualizeazaContestatie("Matematica", "Aprobat", "Nota marita la 10");
+        student1.ActualizeazaContestatie("POO", "Respins", "Nota a ramas aceeasi");
+        
+        Console.WriteLine("\nContestatii actualizate:");
+        student.VizualizeazaContestatii();
+        student1.VizualizeazaContestatii();
     }
 }
