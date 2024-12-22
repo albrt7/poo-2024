@@ -55,5 +55,8 @@ class Program
         Console.WriteLine($"Media multianuala: {student1.CalculeazaMediaMultianuala()}");
         Console.WriteLine($"Media multianuala: {student1.CalculeazaMediaMultianuala()}");
         Console.WriteLine($"Media multianuala: {student2.CalculeazaMediaMultianuala()}");
+        
+        Console.WriteLine("\nVizualizare note pentru anul 2, semestrul 1:");
+        student.VizualizeazaNoteAnSemestruDisciplina(2, 1, "Matematica");
     }
 }
