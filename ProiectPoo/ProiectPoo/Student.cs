@@ -1,5 +1,4 @@
 namespace ProiectPoo;
-
 public class Student
 {
     public string Nume { get; set; }
@@ -36,5 +35,19 @@ public class Student
     public double CalculeazaMediaMultianuala()
     {
         return Discipline.Where(d => d.Tip != "Facultativa").Average(d => d.CalculeazaMedia());
+    }
+
+    public void VizualizeazaNoteAnSemestruDisciplina(int an, int semestru, string disciplina)
+    {
+        var disciplineFiltrate = Discipline.Where(d => (an == 0 || d.An == an) && (semestru == 0 || d.Semestru == semestru) && (string.IsNullOrEmpty(disciplina) || d.Nume == disciplina));
+
+        foreach (var disc in disciplineFiltrate)
+        {
+            Console.WriteLine($"Disciplina: {disc.Nume}, An: {disc.An}, Semestru: {disc.Semestru}");
+            foreach (var nota in disc.Note)
+            {
+                Console.WriteLine($"  {nota.Tip}: {nota.Valoare}");
+            }
+        }
     }
 }
