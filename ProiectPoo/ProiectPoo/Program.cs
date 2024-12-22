@@ -58,5 +58,9 @@ class Program
         
         Console.WriteLine("\nVizualizare note pentru anul 2, semestrul 1:");
         student.VizualizeazaNoteAnSemestruDisciplina(2, 1, "Matematica");
+        
+        Console.WriteLine("\nVizualizare note pentru anul 3, semestrul 2:");
+        student.VizualizeazaNoteAnSemestruDisciplina(3, 2, "POO");
+        
     }
 }
