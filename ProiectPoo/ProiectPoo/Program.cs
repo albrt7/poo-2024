@@ -51,5 +51,9 @@ class Program
         Console.WriteLine($"Media anuala: {student.CalculeazaMediaAnuala()}");
         Console.WriteLine($"Media anuala: {student1.CalculeazaMediaAnuala()}");
         Console.WriteLine($"Media anuala: {student2.CalculeazaMediaAnuala()}");
+        
+        Console.WriteLine($"Media multianuala: {student1.CalculeazaMediaMultianuala()}");
+        Console.WriteLine($"Media multianuala: {student1.CalculeazaMediaMultianuala()}");
+        Console.WriteLine($"Media multianuala: {student2.CalculeazaMediaMultianuala()}");
     }
 }
