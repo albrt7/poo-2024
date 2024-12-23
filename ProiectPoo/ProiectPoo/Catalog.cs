@@ -24,19 +24,7 @@ public class Catalog
         var student = GasesteStudent(numeStudent);
         if (student != null)
         {
-            var disciplina = student.Discipline.FirstOrDefault(d => d.Nume == numeDisciplina);
-            if (disciplina != null)
-            {
-                Console.WriteLine($"Note publicate pentru {numeDisciplina}:\n");
-                foreach (var nota in disciplina.Note)
-                {
-                    Console.WriteLine($"{nota.Tip}: {nota.Valoare}");
-                }
-            }
-            else
-            {
-                Console.WriteLine("Disciplina nu a fost gasita.");
-            }
+            student.PublicaNoteInCarnet(numeDisciplina);
         }
         else
         {
