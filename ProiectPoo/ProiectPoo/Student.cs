@@ -69,4 +69,31 @@ public class Student
                 }
             }
         }
+
+        public void PublicaNoteInCarnet(string numeDisciplina)
+        {
+            var disciplina = Discipline.FirstOrDefault(d => d.Nume == numeDisciplina);
+            if (disciplina != null)
+            {
+                Console.WriteLine($"Note publicate pentru {numeDisciplina}:");
+                foreach (var nota in disciplina.Note)
+                {
+                    Console.WriteLine($"  {nota.Tip}: {nota.Valoare}");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Disciplina nu a fost gasita.");
+            }
+        }
+        public double CalculeazaMediaDisciplina(string numeDisciplina)
+        {
+            var disciplina = Discipline.FirstOrDefault(d => d.Nume == numeDisciplina);
+            if (disciplina != null)
+            {
+                return disciplina.CalculeazaMedia();
+            }
+            return 0;
+        }
     }
+    
