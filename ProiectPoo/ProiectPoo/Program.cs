@@ -39,8 +39,8 @@ class Program
             {
                 Console.WriteLine("\n===== Meniu Principal =====");
                 Console.WriteLine("1. Adauga student");
-                Console.WriteLine("2. Inroleaza disciplina pentru un student");
-                Console.WriteLine("3. Publica notele unui student pentru o disciplina");
+                Console.WriteLine("2. Inroleaza la o disciplina");
+                Console.WriteLine("3. Publica note pentru o disciplina");
                 Console.WriteLine("4. Vizualizeaza note");
                 Console.WriteLine("5. Trimite contestatie");
                 Console.WriteLine("6. Vizualizeaza contestatii");
